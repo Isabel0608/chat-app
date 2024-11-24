@@ -83,9 +83,9 @@ DATABASES = {
         "ENGINE": "django.db.backends.postgresql",
         "NAME": "railway",
         "USER": "postgres",
-        "PASSWORD": "BvZdQWTXvwtVXbuMrzGdCUwWtntjtkOw",
-        "HOST": "junction.proxy.rlwy.net",
-        "PORT": "46377",
+        "PASSWORD": "XkPnRjAQYueGsJwRaXWhCeDejATQQVKv",
+        "HOST": "autorack.proxy.rlwy.net",
+        "PORT": "33083",
     }
 }
 
@@ -128,7 +128,7 @@ STATIC_URL = 'static/'
 STATIC_ROOT = os.path.join(BASE_DIR, "staticfiles")
 
 
-STATICFILES_STORAGE = "whitenoise.storage.CompressedManifeststaticFilesstorage"
+    
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
 
